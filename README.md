@@ -26,7 +26,7 @@ As discussed above, the data was provided by Kaggle. Our data contains tens of t
 
 {You can use this area for any images you want to include}
 
-<img src ="images/NBA image.png" width="15git commit -m 0px">
+<img src ="images/NBA image.png" width="150px">
 
 ## References
 
