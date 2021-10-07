@@ -9,7 +9,8 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your topic/interest in about 150-200 words
 
-{Add your stuff here}
+Kaggle provided the data that was used for our data. The dataset consists of the scoring percentages, names, draft years, height, weight, all star games and many more characteristic of more than a thousand basketball players. The data collected was gotten to analyse the starting years of the nba to present day. The purpose of the dataset was to know the worst all star player or the tallest best player. We believe this project would be fun and also very curious to see who the statistics favour.
+
 
 ## Describe your dataset in about 150-200 words
 
@@ -17,7 +18,8 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Team Members
 
-- Person 1: one sentence about you!
+- Person 1: one sentence about you! 
+My name is Philip Okorie. I am a very passionate and cool guy
 - Person 2: one sentence about you!
 - Person 3: one sentence about you!
 
