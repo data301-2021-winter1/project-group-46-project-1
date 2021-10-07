@@ -9,12 +9,12 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your topic/interest in about 150-200 words
 
-Kaggle provided the data that was used for our data. The dataset consists of the scoring percentages, names, draft years, height, weight, all star games and many more characteristic of more than a thousand basketball players. The data collected was gotten to analyse the starting years of the nba to present day. The purpose of the dataset was to know the worst all star player or the tallest best player. We believe this project would be fun and also very curious to see who the statistics favour.
+*Kaggle provided the data that was used for our data. The dataset consists of the scoring percentages, names, draft years, height, weight, all star games and many more characteristic of more than a thousand basketball players. The data collected was gotten to analyse the starting years of the nba to present day. The purpose of the dataset was to know the worst all star player or the tallest best player. We believe this project would be fun and also very curious to see who the statistics favour.*
 
 
 ## Describe your dataset in about 150-200 words
 
-As discussed above, the data was provided by Kaggle. Our data contains tens of thousands of data fields that are concerned with the NBA (National Basketball Association) statistics right from the game's induction 75 years ago. The dataset is updated regularly and it provides a lot of raw data that we will need to carry out our analysis. The prupose of this dataset is to really answer some interesting questions that trouble the minds of many NBA fans. Besides knowing that Lebron James is the best player in the world, we want to ask the question of the tallest best player and the worst all star player. These will be based on certain criteria such as their win percentages, their all star selections, how many championships they have, career statistics, etc. This data was collected via a fully automated data pipeline hosted between both Kaggle and Github. Stick around for more!
+*As discussed above, the data was provided by Kaggle. Our data contains tens of thousands of data fields that are concerned with the NBA (National Basketball Association) statistics right from the game's induction 75 years ago. The dataset is updated regularly and it provides a lot of raw data that we will need to carry out our analysis. The prupose of this dataset is to really answer some interesting questions that trouble the minds of many NBA fans. Besides knowing that Lebron James is the best player in the world, we want to ask the question of the tallest best player and the worst all star player. These will be based on certain criteria such as their win percentages, their all star selections, how many championships they have, career statistics, etc. This data was collected via a fully automated data pipeline hosted between both Kaggle and Github. Stick around for more!*
 
 ## Team Members
 
@@ -26,11 +26,12 @@ As discussed above, the data was provided by Kaggle. Our data contains tens of t
 
 {You can use this area for any images you want to include}
 
-<img src ="images/NBA image.png" width="150px">
+<img src ="images/NBAlogo2.png" width="300px">
+
 
 ## References
 
-{Add your stuff here}
+### Credit NBA image: [SeekLogo](https://seeklogo.com/free-vector-logos/nba)
 
 
 
