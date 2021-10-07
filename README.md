@@ -20,13 +20,13 @@ As discussed above, the data was provided by Kaggle. Our data contains tens of t
 
 - Person 1: My name is Philip Okorie. I am a very passionate and cool guy.
 - Person 2: My name is Hameed Karim. I am a Lakers fan and we're winning the championship this year.
-- Person 3: one sentence about you!
+
 
 ## Images
 
 {You can use this area for any images you want to include}
 
-<img src ="images/NBA image.png" width="150px">
+<img src ="images/NBA image.png" width="15git commit -m 0px">
 
 ## References
 
