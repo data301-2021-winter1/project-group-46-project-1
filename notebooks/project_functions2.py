@@ -17,10 +17,15 @@ def processplayers(file): #This would be the function for loading and processing
     df2 = (
     df1.assign(OD = lambda a: (a.PTS*a.AST*a.REB*a.SEASON)/((a.PTS + a.AST + a.REB)*100))
     .assign(Attratio = lambda b: (b.PTS+b.AST)/(b.PTS+b.AST+b.REB))
-    .assign(Defratio = lambda c: (c.REB)/(c.PTS+c.AST+c.REB))   
+    .assign(Defratio = lambda c: (c.REB)/(c.PTS+c.AST+c.REB))
+    
      )
     
     df2['IS_ACTIVE'] = df2['IS_ACTIVE'].replace([0,1],['No','Yes'])
+    
+    df3 = (
+    df2.
+    )
     return df2
 
 
