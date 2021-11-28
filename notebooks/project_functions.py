@@ -4,24 +4,25 @@ import matplotlib.pylab as plt
 import seaborn as sns    
 
 def first_python_module(url_or_path_to_csv_file):
-    
-     df1 = (
-pd.read_csv(url_or_path_to_csv_file)
-        .drop(['NBA_FLAG','JERSEY','PIE','TEAM_ABBREVIATION','TEAM_ID','ALL_STAR_APPEARANCES',
+        
+        df1 = (
+             pd.read_csv(url_or_path_to_csv_file)
+             .drop(['NBA_FLAG','JERSEY','PIE','TEAM_ABBREVIATION','TEAM_ID','ALL_STAR_APPEARANCES',
                 'GAMES_PLAYED_CURRENT_SEASON_FLAG','FROM_YEAR','TO_YEAR','DLEAGUE_FLAG',  
                 'TEAM_CODE','TEAM_CITY','DISPLAY_FIRST_LAST','PLAYER_SLUG','FIRST_NAME', 
                  'LAST_NAME','DISPLAY_FI_LAST','GAMES_PLAYED_FLAG','PLAYERCODE'], axis=1)
        .rename(columns={'DISPLAY_LAST_COMMA_FIRST': 'FULL NAME', 'PTS':'PPG', 'AST':'APG','REB':'RBG'})  
        .dropna(axis=0)
-            )
-        
-    df2 = (
-        df1.dropna(subset=['HEIGHT','PPG','APG','RBG'])
-           .reset_index(drop = True) 
-           .loc[lambda x: x['HEIGHT']>84]
-           .assign(OverallScore= (df1['APG'] * 0.3)+ (df1['PPG'] * 0.4)+(df1['RBG'] * 0.3))
         )
-    
+        
+        df2 = (
+                df1.dropna(subset=['HEIGHT','PPG','APG','RBG'])
+                .reset_index(drop = True) 
+                .loc[lambda x: x['HEIGHT']>84]
+                .assign(OverallScore= (df1['APG'] * 0.3)+ (df1['PPG'] * 0.4)+(df1['RBG'] * 0.3))
+        )
+        
+
         return df2
   
   
