@@ -1,9 +1,10 @@
-import numpy as np\n",
-import pandas as pd\n",
+import numpy as np
+import pandas as pd
 import matplotlib.pylab as plt
 import seaborn as sns    #Understanding my variables\n",
     
-    def first_python_module(url_or_path_to_csv_file):
+
+def first_python_module(url_or_path_to_csv_file):
     
        # Method Chain 1 (Load data,rename columns, get rid of null values and drop necessary data with missing data)\n",
     

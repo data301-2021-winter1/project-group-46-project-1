@@ -23,7 +23,7 @@ def processplayers(file): #This would be the function for loading and processing
     
     df2['IS_ACTIVE'] = df2['IS_ACTIVE'].replace([0,1],['No','Yes'])
     
-    )
+    
     return df2
 
 
